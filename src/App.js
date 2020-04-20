@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ClassComponent from './components/ClassComponent/ClassComponent';
 
 function App() {
+  console.log('App Component');
   return (
     <div className="App">
-      <span >
-
-      </span>
+      <h1>APP Component</h1>
+      <ClassComponent prebaChino={'hola Chino'} />
     </div>
   );
 }
